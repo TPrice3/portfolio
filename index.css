@@ -1,0 +1,91 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+header {
+	position: fixed;
+	z-index: 99999;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.container {
+	position: relative;
+	margin-top: 150px;
+	max-width: 250px;
+}
+
+.aboutme {
+	position: relative;
+	padding: 5px;
+	color: white;
+	margin-top: 25px;
+	max-width: 600px;
+	margin-right: 0px;
+}
+
+div {
+}
+
+a:hover {
+	zoom: 150%;
+}
+
+p {
+	font-family: 'Kaushan Script', cursive;
+}
+
+h1 {
+	font-size: 25px;
+	font-family: 'Architects Daughter', cursive;
+}
+
+@media only screen and (min-width: 500px) {
+	header {
+		font-size: 50px;
+		min-height: 50px;
+		background: indianred;
+		color: lightcoral;
+		font-family: 'Architects Daughter', cursive;
+		text-align: center;
+	}
+	body {
+		background-image: url("images/abstractred.jpg");
+		background-size: 200px;
+	}
+	.container {
+		background: indianred;
+		border: solid 5px lightcoral;
+	}
+	.aboutme {
+		border: double 5px indianred;
+	}
+}
+
+@media only screen and (max-width: 499px) {
+	header {
+		font-size: 25px;
+		min-height: 40px;
+		background: darkslateblue;
+		color: darkorchid;
+		font-family: 'Abril Fatface', cursive;
+		text-align: center;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+	body {
+		background-image: url("images/abstractpurple.jpg");
+		background-size: 500px;
+	}
+	.container {
+		background: darkorchid;
+		border: double 5px darkslateblue;
+	}
+	.aboutme {
+		border: solid 5px darkslateblue;
+	}
+}
