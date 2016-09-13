@@ -43,6 +43,18 @@ h1 {
 	font-family: 'Architects Daughter', cursive;
 }
 
+.art {
+	margin-top: 50px;
+	color: white;
+	border: solid indianred 2px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.ContactMe {
+	color: white;
+	
+}
+
 @media only screen and (min-width: 500px) {
 	header {
 		font-size: 50px;
@@ -87,5 +99,6 @@ h1 {
 	}
 	.aboutme {
 		border: solid 5px darkslateblue;
+		color: white;
 	}
 }
