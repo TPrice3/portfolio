@@ -48,11 +48,16 @@ h1 {
 	color: white;
 	border: solid indianred 2px;
 	font-family: 'Kaushan Script', cursive;
+	max-width: 300px;
+	padding: 10px;
 }
 
 .ContactMe {
 	color: white;
-	
+}
+
+img {
+	width: 250px;
 }
 
 @media only screen and (min-width: 500px) {
